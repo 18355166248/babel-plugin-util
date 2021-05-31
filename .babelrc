@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    ["./plugins/demo1/index.js", {
+      "bad": "good",
+      "old": "new1"
+    }]
+  ]
+}

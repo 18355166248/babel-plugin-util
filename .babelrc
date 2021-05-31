@@ -1,8 +1,9 @@
 {
   "plugins": [
-    ["./plugins/demo1/index.js", {
+    ["./plugins/demo1.js", {
       "bad": "good",
       "old": "new1"
-    }]
+    }],
+    ["./plugins/demo2.js"]
   ]
 }

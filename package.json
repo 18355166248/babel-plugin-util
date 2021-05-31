@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/demo1/index.js --out-file demo1.js"
+    "build": "babel src --out-dir lib",
+    "demo2": "NODE_ENV=development babel src/demo2.js --out-file lib/demo.js"
   },
   "keywords": [],
   "author": "",
